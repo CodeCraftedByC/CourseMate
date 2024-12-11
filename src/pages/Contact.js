@@ -9,7 +9,7 @@ const Contact = () => {
       <img src={contactImage} alt="Contact Us" className="contact-image" />
         <h1>Contact Us</h1>
         <p>If you have any questions, feel free to reach out to us!</p>
-        <p>Email: support@courseregistration.com</p>
+        <p>Email: chaithra.m@course-mate.com</p>
         <p>Phone: +91 9146****32</p>
 
        

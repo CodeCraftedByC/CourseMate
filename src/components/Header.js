@@ -20,6 +20,9 @@ const Header = () => {
             <Link to="/contact">Contact</Link>
           </li>
           <li>
+            <Link to="/trainer-info">Trainer Info</Link> {/* Correct the route */}
+          </li>
+          <li>
             <Link to="/register">Register</Link>
           </li>
         </ul>
