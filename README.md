@@ -22,19 +22,25 @@
 4. Run the app:
  - npm start
 
+Available Scripts:
+  1. npm start
+     - Runs the app in development mode. The page will reload when you make changes. You may also see any lint errors in the console.
+
+  2. npm test
+    - Launches the test runner in the interactive watch mode.
+
+  3. npm run build
+   -  Builds the app for production to the build folder. It optimizes the build for the best performance.
+
+  4. npm run eject
+  - If you want more control over the build configuration, you can eject. This is a one-way operation!
+
 Technologies Used:
    1. React.js: For building the user interface
    2. CSS: For styling the components
   3. JavaScript: For application logic and interactivity
 
-License:
- - This project is licensed under the MIT License.
 
-For Developers:
-    1. To run tests, use the following command:
-         - npm test
 
-     2. To build the app for production, use:
-         - npm run build
 
 
