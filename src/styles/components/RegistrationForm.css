@@ -1,0 +1,65 @@
+.registration-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .registration-form label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 8px;
+    color: #34495e;
+  }
+  
+  .registration-form input,
+  .registration-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #16a085;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background-color: #138f78;
+  }
+  
+  /* Align the checkbox and label properly */
+  .registration-form .form-group label input[type="checkbox"] {
+    margin-right: 10px;
+    vertical-align: middle; /* Ensures checkbox aligns with the label text */
+  }
+  
+  .registration-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  

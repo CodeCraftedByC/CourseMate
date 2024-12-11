@@ -1,0 +1,39 @@
+.header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header .logo {
+    font-size: 40px; /* Make CourseMate bigger */
+    font-weight: bold; /* Make CourseMate bold */
+    margin-right: 50px; /* Add distance from navigation links */
+  }
+  
+  .header .logo a {
+    color: rgb(102, 167, 118);
+    text-decoration: none; /* Remove underline from CourseMate */
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .header nav ul li {
+    margin: 0 15px;
+  }
+  
+  .header nav ul li a {
+    color: rgb(102, 167, 118);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .header nav ul li a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover for better UX */
+  }
+  

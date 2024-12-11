@@ -1,0 +1,21 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4; /* Optional: Background color */
+    flex-direction: column; /* Align the content vertically */
+  }
+  
+  .page-content {
+    text-align: center;
+  }
+  
+  .contact-image {
+    max-width: 80%; /* Adjust the size responsively */
+    width: 500px; /* Set a specific width for larger screens */
+    height: auto; /* Maintains the aspect ratio */
+    margin-bottom: 20px; /* Adds spacing below the image */
+    border-radius: 10px; /* Optional: Rounded corners */
+  }
+  
